@@ -6,8 +6,10 @@ def is_palindrome_other(a):
             return False
     return True
 
+
 def is_palindrome(a):
     return str(a) == str(a)[::-1]
+
 
 if __name__ == '__main__':
     largest = 0
